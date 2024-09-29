@@ -48,7 +48,7 @@ body{
 }
 
 .body-main-image {
-  max-width: 300px; /* Adjust max width as needed */
+  max-width: 300px;
   margin-bottom: 20px;
 }
 
@@ -81,7 +81,6 @@ button {
   cursor: pointer;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  transition: 0.2s ease all;
 }
 button:hover{
   background-color: #757575;

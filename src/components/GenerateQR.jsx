@@ -1,15 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import QRCode from 'qrcode';
 import BaseQR from '../assets/base-qr.png'
+
 function GenerateQR() {
   const [qrData, setQrData] = useState('');
   const [qrImage, setQrImage] = useState('');
+
   useEffect(() => {
     setQrImage(BaseQR);
   }, []);
+
   const handleInputChange = (event) => {
     setQrData(event.target.value);
   };
+  
   const generateQR = async () => {
     if (!qrData) {
       alert('Please enter data to generate a QR code.');
