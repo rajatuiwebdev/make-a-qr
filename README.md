@@ -1,8 +1,6 @@
-# React + Vite
+# Make A QR
+Make a QR is a very simple and minimalist website to make QR codes. I've made this as a practice project for ReactJS yet it is usable in production level.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You can check out it's [demo by clicking on this hyperlink.](https://make-a-qr.netlify.app)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Feel free to contribute!
